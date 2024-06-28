@@ -1,11 +1,25 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+
+@media only screen and (max-width: 768px) {
+.img{
+  width:80vw;
+  height:300px
+}
+  
+}
+@media only screen and (min-width: 768px) {
+  .img{
+    width:700px;
+    height:400px
+  }
+    
+  }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -36,3 +50,4 @@
     transform: rotate(360deg);
   }
 }
+
