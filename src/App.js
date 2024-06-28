@@ -2,13 +2,10 @@ import "./App.css";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 import { useState } from "react";
-import Home from "./Home";
 import Navbar from "./Navbar";
-import Sidebar from "./Sidebar";
 import List from "./List";
-import {  Routes, Route, Link } from 'react-router-dom';
 import CreateBlog from "./CreateBlog";
-import DarkModeSwitch from "./DarkModeSwitch";
+
 
 
 function App() {
